@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen03.MainPage">
+
+    <StackLayout BackgroundColor="Black">
+        <Grid Margin="0,10,0,20" BackgroundColor="#A2CCE6">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <Image Source="IPNIMAGEN.png" WidthRequest="100" HeightRequest="100" HorizontalOptions="Start" Grid.Column="0"/>
+            <Image Source="ESIMEIMAGEN.png" WidthRequest="100" HeightRequest="100" HorizontalOptions="End" Grid.Column="2"/>
+            <Label Text="Instituto Politecnico Nacional" HorizontalTextAlignment="Center" FontSize="28" FontAttributes="Bold" VerticalTextAlignment="Center" TextColor="#800040" Grid.Column="1"/>
+
+        </Grid>
+
+        <Label Text="ESIME ZACATENCO" HorizontalTextAlignment="Center" FontSize="Medium" TextColor="Green" FontAttributes="Bold"/>
+        <Label Text="Nombre: Jonathan Ruìz Santos" TextColor="White" HorizontalTextAlignment="Center" FontSize="Medium"/>
+        <Label Text="Boleta: 2019300527" TextColor="White" HorizontalTextAlignment="Center" FontSize="Medium"/>
+        <Label Text="Especialidad: Computacion" TextColor="White" HorizontalTextAlignment="Center" FontSize="Medium"/>
+        <Label Text="Grupo: 8CM12" TextColor="White" HorizontalTextAlignment="Center" FontSize="Medium"/>
+        <Image Source="Foto.jpeg" WidthRequest="200" HeightRequest="200" Margin="10,20,10,10"/>
+        <Button Text="Inicio" Clicked="BtInicio" FontSize="20" BackgroundColor="#C4DEFA" Margin="15" TextColor="#4D00D5" Background="Red" FontAttributes="Bold"/>
+        
+    </StackLayout>
+
+</ContentPage>

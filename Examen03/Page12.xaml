@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen03.Page12">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#296F70">
+            <StackLayout BackgroundColor="#0C57B2">
+                <Label Text="Practicas y Proyectos"
+                HorizontalOptions="CenterAndExpand" 
+                TextColor="White" FontSize="20" FontAttributes="Bold" Margin="7"/>
+            </StackLayout>
+            <Label Text="Practica 01" FontSize="18" FontAttributes="Bold" />
+            <StackLayout Orientation="Horizontal">
+                <Image Source="unouno.jpg" Margin="3" HeightRequest="100" WidthRequest="200"/>
+            </StackLayout>
+            <Label Text="Practica 02" FontSize="18" FontAttributes="Bold" />
+            <StackLayout Orientation="Horizontal">
+                <Image Source="dosuno.jpg" Margin="3" HeightRequest="100" WidthRequest="200"/>
+            </StackLayout>
+            <Label Text="Practica 03" FontSize="18" FontAttributes="Bold" />
+            <StackLayout Orientation="Horizontal">
+                <Image Source="tresuno.jpg" Margin="3" HeightRequest="100" WidthRequest="200"/>
+                <Image Source="tresdos.jpg" Margin="3" HeightRequest="100" WidthRequest="200"/>
+            </StackLayout>
+            <Label Text="Practica 04" FontSize="18" FontAttributes="Bold" />
+            <StackLayout Orientation="Horizontal">
+                <Image Source="cuatrouno.jpg" Margin="3" HeightRequest="100" WidthRequest="200"/>
+            </StackLayout>
+            
+            <Button Text="Siguiente" Clicked="BtP01" Margin="20" BackgroundColor="#209A6D" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" />
+
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

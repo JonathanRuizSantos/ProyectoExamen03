@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen03.Page2">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#296F70">
+            <StackLayout BackgroundColor="#0C57B2">
+                <Label Text="Proyecto Examen 03"
+                HorizontalOptions="CenterAndExpand" 
+                TextColor="White" FontSize="20" FontAttributes="Bold" Margin="7"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

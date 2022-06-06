@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen03.Page7">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#296F70">
+            <Label Text="Practica 31" FontSize="18" FontAttributes="Bold" />
+            <StackLayout Orientation="Horizontal">
+                <Image Source="treintayunouno.jpg" Margin="3" HeightRequest="100" WidthRequest="130"/>
+            </StackLayout>
+            <Label Text="Practica 32" FontSize="18" FontAttributes="Bold" />
+            <StackLayout Orientation="Horizontal">
+                <Image Source="treintaydosuno.jpg" Margin="3" HeightRequest="100" WidthRequest="130"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
