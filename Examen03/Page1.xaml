@@ -8,7 +8,7 @@
         <Button Text="Proyecto Examen 03" Clicked="HOLAW" FontSize="15" Background="#03566D" TextColor="White" Margin="15"/>
         <Button Text="Practicas y Proyectos" Clicked="BtPag12" FontSize="15" Background="#03566D" TextColor="White" Margin="15"/>
         <Button Text="Proyectos Grupales" Clicked="BtPag13" FontSize="15" Background="#03566D" TextColor="White" Margin="15"/>
-        <Image Source="PresN.jpeg" WidthRequest="150" HeightRequest="150" Margin="10,20,10,10" HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand"/>
+        <ImageButton Source="PresN.jpeg" WidthRequest="150" HeightRequest="150" Margin="10,20,10,10" HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand"/>
         
         
     </StackLayout>

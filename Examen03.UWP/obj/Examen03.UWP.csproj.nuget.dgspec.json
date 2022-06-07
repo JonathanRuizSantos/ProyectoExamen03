@@ -134,6 +134,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "System.Runtime.Numerics": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.0, )"

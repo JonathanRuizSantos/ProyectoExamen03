@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+   
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Examen03.Page12">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout BackgroundColor="#296F70">
             <StackLayout BackgroundColor="#0C57B2">
                 <Label Text="Practicas y Proyectos"
@@ -10,26 +12,118 @@
                 TextColor="White" FontSize="20" FontAttributes="Bold" Margin="7"/>
             </StackLayout>
             <Label Text="Practica 01" FontSize="18" FontAttributes="Bold" />
-            <StackLayout Orientation="Horizontal">
-                <Image Source="unouno.jpg" Margin="3" HeightRequest="100" WidthRequest="200"/>
+            <StackLayout>
+                <ImageButton Source="unouno.jpg" Aspect="AspectFit" HorizontalOptions="Center" Margin="8"/>
             </StackLayout>
             <Label Text="Practica 02" FontSize="18" FontAttributes="Bold" />
-            <StackLayout Orientation="Horizontal">
-                <Image Source="dosuno.jpg" Margin="3" HeightRequest="100" WidthRequest="200"/>
+            <StackLayout>
+                <ImageButton Source="dosuno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
             </StackLayout>
             <Label Text="Practica 03" FontSize="18" FontAttributes="Bold" />
-            <StackLayout Orientation="Horizontal">
-                <Image Source="tresuno.jpg" Margin="3" HeightRequest="100" WidthRequest="200"/>
-                <Image Source="tresdos.jpg" Margin="3" HeightRequest="100" WidthRequest="200"/>
+            <StackLayout>
+                    <ImageButton Source="tresuno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="tresdos.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
             </StackLayout>
             <Label Text="Practica 04" FontSize="18" FontAttributes="Bold" />
-            <StackLayout Orientation="Horizontal">
-                <Image Source="cuatrouno.jpg" Margin="3" HeightRequest="100" WidthRequest="200"/>
+            <StackLayout>
+                    <ImageButton Source="cuatrouno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
             </StackLayout>
-            
-            <Button Text="Siguiente" Clicked="BtP01" Margin="20" BackgroundColor="#209A6D" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" />
-
+            <Label Text="Practica 05" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                    <ImageButton Source="cincouno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Practica 12" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                    <ImageButton Source="doceuno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="docedos.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Practica 13" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                    <ImageButton Source="treceuno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="trecedos.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Practica 14" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                    <ImageButton Source="catorceuno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="catorcedos.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="catorcetres.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Practica 15" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                    <Image Source="quinceuno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="quincedos.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="quincetres.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="quincecuatro.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Practica 16" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                    <ImageButton Source="dieciseisuno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Practica 19" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                    <ImageButton Source="diecinueveuno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Practica 20" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                    <ImageButton Source="veinteuno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Practica 21" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                    <ImageButton Source="veintiunouno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Practica 22" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                    <ImageButton Source="veintidosuno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="veintidosdos.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="veintidostres.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="veintidoscuatro.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="veintidoscinco.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Practica 23" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                    <ImageButton Source="veintitresuno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="veintitresdos.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="veintitrestres.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="veintitrescuatro.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="veintitrescinco.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="veintitresseis.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="veintitressiete.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Practica 24" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                    <ImageButton Source="veinticuatrouno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="veinticuatrodos.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                    <ImageButton Source="veinticuatrotres.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Practica 25" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                <ImageButton Source="veinticincouno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                <ImageButton Source="veinticincodos.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                <ImageButton Source="veinticincotres.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+                <ImageButton Source="veinticincocuatro.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Practica 26" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                <ImageButton Source="veintiseisuno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Practica 27" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                <ImageButton Source="veintisieteuno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Practica 30" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                <ImageButton Source="treintauno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Practica 31" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                <ImageButton Source="treintayunouno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Practica 32" FontSize="18" FontAttributes="Bold" />
+            <StackLayout>
+                <ImageButton Source="treintaydosuno.jpg" Margin="8" Aspect="AspectFit" HorizontalOptions="Center"/>
+            </StackLayout>
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
     
 </ContentPage>

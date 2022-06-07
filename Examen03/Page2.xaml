@@ -4,14 +4,56 @@
              x:Class="Examen03.Page2">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#296F70">
-            <StackLayout BackgroundColor="#0C57B2">
-                <Label Text="Proyecto Examen 03"
-                HorizontalOptions="CenterAndExpand" 
-                TextColor="White" FontSize="20" FontAttributes="Bold" Margin="7"/>
+            <StackLayout BackgroundColor="#953737">
+                <Label Text="Proyecto Examen 03" HorizontalOptions="CenterAndExpand" TextColor="White" FontSize="20" FontAttributes="Bold" Margin="7"/>
+                <Label Text="Calculadora para numeros Complejos" FontSize="20" FontAttributes="Bold" Margin="7" TextColor="White" HorizontalOptions="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="5">
+                <Label Text="Complejo1 = " FontSize="20" VerticalOptions="Center"/>
+                <Entry x:Name="Real1" Text="0" BackgroundColor="#E1E1E1" HeightRequest="50" WidthRequest="100" TextColor="Black" HorizontalTextAlignment="Center"/>
+                <Label Text=" + " FontSize="20" VerticalOptions="Center"/>
+                <Entry x:Name="Imaginario1" Text="0" BackgroundColor="#E1E1E1" HeightRequest="50" WidthRequest="100" TextColor="Black" HorizontalTextAlignment="Center"/>
+                <Label Text=" i " FontSize="20" VerticalOptions="Center"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal" Margin="5">
+                <Label Text="Complejo2 = " FontSize="20" VerticalOptions="Center"/>
+                <Entry x:Name="Real2" Text="0" BackgroundColor="#E1E1E1" HeightRequest="50" WidthRequest="100" TextColor="Black" HorizontalTextAlignment="Center"/>
+                <Label Text=" + " FontSize="20" VerticalOptions="Center"/>
+                <Entry x:Name="Imaginario2" Text="0" BackgroundColor="#E1E1E1" HeightRequest="50" WidthRequest="100" TextColor="Black" HorizontalTextAlignment="Center"/>
+                <Label Text=" i " FontSize="20" VerticalOptions="Center"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
+                <Label Text=" Resultado = " FontSize="20" VerticalOptions="Center" HorizontalOptions="Start"/>
+                <Label x:Name="Result" FontSize="20" TextColor="Black" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="Center" BackgroundColor="#E1E1E1" WidthRequest="300" HeightRequest="100"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="10" HorizontalOptions="CenterAndExpand">
+                <Button Text="+" Background="#1A20A1" FontSize="18" Clicked="BtSuma"/>
+                <Button Text="-" Background="#1A20A1" FontSize="18" Clicked="BtResta"/>
+                <Button Text="*" Background="#1A20A1" FontSize="18" Clicked="BtMultiplica"/>
+                <Button Text="/" Background="#1A20A1" FontSize="18" Clicked="BtDivide"/>
+                <Button Text="Pow" Background="#1A20A1" FontSize="18" Clicked="BtPot"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="10" HorizontalOptions="CenterAndExpand">
+                <Button Text="Sen" Background="#1A20A1" FontSize="18" Clicked="BtSen"/>
+                <Button Text="Cos" Background="#1A20A1" FontSize="18" Clicked="BtCos"/>
+                <Button Text="Tan" Background="#1A20A1" FontSize="18" Clicked="BtTan"/>
+                <Button Text="Senh" Background="#1A20A1" FontSize="18" Clicked="BtSenh"/>
+                <Button Text="Cosh" Background="#1A20A1" FontSize="18" Clicked="BtCosh"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="10" HorizontalOptions="CenterAndExpand">
+                <Button Text="Tanh" Background="#1A20A1" FontSize="18" Clicked="BtTanh"/>
+                <Button Text="Log" Background="#1A20A1" FontSize="18" Clicked="BtLog"/>
+                <Button Text="Log10" Background="#1A20A1" FontSize="18" Clicked="BtLog10"/>
+                <Button Text="Borrar" Background="#1A20A1" FontSize="18" Clicked="BtBorrar"/>
                 
             </StackLayout>
+
+            <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
+                <Button Text="Firma" Background="#165f2e" FontSize="15" HorizontalOptions="Start" VerticalOptions="EndAndExpand" Margin="10" Clicked="BtFirma"/>
+                <Button Text="Ejemplo" Background="#165f2e" FontSize="15" Clicked="BtEjemplo" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Margin="10"/>
+            </StackLayout>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

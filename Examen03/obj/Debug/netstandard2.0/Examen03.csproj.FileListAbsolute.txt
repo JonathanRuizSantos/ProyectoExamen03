@@ -33,8 +33,3 @@ C:\Users\jon_r\Documents\Ingenieria_de_Software_P3\Examen03\Examen03\obj\Debug\n
 C:\Users\jon_r\Documents\Ingenieria_de_Software_P3\Examen03\Examen03\obj\Debug\netstandard2.0\Page12.xaml.g.cs
 C:\Users\jon_r\Documents\Ingenieria_de_Software_P3\Examen03\Examen03\obj\Debug\netstandard2.0\Page2.xaml.g.cs
 C:\Users\jon_r\Documents\Ingenieria_de_Software_P3\Examen03\Examen03\obj\Debug\netstandard2.0\Page3.xaml.g.cs
-C:\Users\jon_r\Documents\Ingenieria_de_Software_P3\Examen03\Examen03\obj\Debug\netstandard2.0\Page2Practicas.xaml.g.cs
-C:\Users\jon_r\Documents\Ingenieria_de_Software_P3\Examen03\Examen03\obj\Debug\netstandard2.0\Page4.xaml.g.cs
-C:\Users\jon_r\Documents\Ingenieria_de_Software_P3\Examen03\Examen03\obj\Debug\netstandard2.0\Page5.xaml.g.cs
-C:\Users\jon_r\Documents\Ingenieria_de_Software_P3\Examen03\Examen03\obj\Debug\netstandard2.0\Page6.xaml.g.cs
-C:\Users\jon_r\Documents\Ingenieria_de_Software_P3\Examen03\Examen03\obj\Debug\netstandard2.0\Page7.xaml.g.cs

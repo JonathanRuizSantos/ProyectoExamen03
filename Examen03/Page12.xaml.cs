@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
 namespace Examen03
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -17,14 +18,6 @@ namespace Examen03
             InitializeComponent();
         }
 
-        private async void BtP01(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Page2Practicas());
-        }
-
-        private void BtInicio(object sender, EventArgs e)
-        {
-            
-        }
+       
     }
 }

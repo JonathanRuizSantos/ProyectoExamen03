@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "S4dkInCyhs6mGctD9j9Iez0uafHXyAf/fecxe5urVUEYIgRW93chjCwyLkRRGCl16FZYX1jg5QGFwpp/tdEfSw==",
+  "dgSpecHash": "zXLASQpcX5m2uKhCRcF1oZlSi8Q2c2r+10jlt6bbuZ/KQpDMYudZ0iHwNXSrA0fIgVCUCAkh7c1rDUnfTvDmkA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jon_r\\Documents\\Ingenieria_de_Software_P3\\Examen03\\Examen03.Android\\Examen03.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jon_r\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\jon_r\\.nuget\\packages\\system.runtime.numerics\\4.3.0\\system.runtime.numerics.4.3.0.nupkg.sha512",
     "C:\\Users\\jon_r\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\jon_r\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
     "C:\\Users\\jon_r\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.1.0.1\\xamarin.androidx.annotation.experimental.1.1.0.1.nupkg.sha512",
